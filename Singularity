@@ -41,8 +41,8 @@ rm -rf workspace
 # install ABruijn
 cd /opt
 git clone https://github.com/fenderglass/ABruijn.git
-git checkout 4d3bd9d
 cd ABruijn
+git checkout 4d3bd9d
 APPVER=$(git describe)
 python setup.py build
 
